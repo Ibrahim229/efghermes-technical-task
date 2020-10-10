@@ -1,0 +1,27 @@
+.filter-border {
+    height: 30rem;
+    border: 1px solid #F0F0F0; 
+    border-radius: 0.5rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 6.3rem;
+  }
+
+.form-control:focus{
+    border-color: #cccccc;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.search-field{
+    margin-top: 1rem;
+}
+
+.form-check{
+    margin-top: 1rem;
+    font-size:1vw;
+}
+
+.title-style{
+    font-size:1.5vw ;
+}

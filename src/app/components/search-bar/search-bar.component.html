@@ -1,0 +1,24 @@
+    <div class="filter-border position-fixed">
+        <p class="title-style" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed"
+            aria-controls="collapseBasic">
+            Search
+        </p>
+
+        <div id="collapseBasic" class="search-field" [collapse]="isCollapsed" [isAnimated]="true">
+            <div class="input-group">
+                <span class="input-group-prepend">
+                    <div class="input-group-text bg-transparent  border-right-0">
+                        <i class="fa fa-search"></i>
+                    </div>
+                </span>
+                <input class="form-control py-2 border-left-0 border" placeholder="search" value=""
+                    id="example-search-input" #query (keyup)="filterProduct(query.value)" />
+            </div>
+            <div *ngFor="let category of categories; let i = index" class="form-check">
+                <label class="form-check-label">
+                    <input (input)="onCategorySelected(i)" [(ngModel)]="categories[i].isChecked" type="checkbox"
+                        class="form-check-input">{{category.categoryName}} (77)
+                </label>
+            </div>
+        </div>
+    </div>

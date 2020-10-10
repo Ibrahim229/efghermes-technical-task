@@ -1,0 +1,70 @@
+  .card{
+      border: none;
+      box-shadow: 3px 3px 4px 2px #f4fbfb !important; 
+      margin-left: 10px ;
+   
+  }
+  .description-style{
+
+        padding: 0;
+        font-family: 'AvenirNext';
+        font-size: 14px;
+      
+  }
+  .price-style{
+
+        padding: 0;
+        font-family: 'AvenirNext';
+        font-size: 18px;
+        font-weight: bold;
+      
+  }
+  .price-style-original{
+
+        padding: 0;
+        font-family: 'AvenirNext';
+        font-size: 14px;
+        margin-left: 6px;
+        color: #A7A8A9;
+      
+  }
+  ngb-rating {
+    font-size: 18px;
+    color:#EDC207;
+
+  }
+  .p-style{
+      margin-bottom: 0px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+ 
+  }
+  .rate-numbr{
+      margin-left: 6px ;
+      color: #636466;
+  }
+  .favorite{
+      padding-right: 1.9rem;
+  }
+  .fa-heart-o{
+      color: #A7A8A9;
+  }
+  #search-result{
+      margin-left: 2.5rem;
+      font-family: 'AvenirNext';
+      font-size: 18px;
+  }
+b{
+      font-family: 'AvenirNext';
+      font-size: 24px;
+      font-weight: bold;
+  }
+  .installment-style{
+    font-family: 'AvenirNext';
+    font-size: 14px;
+    color: #636466;
+    margin-bottom: 0px;
+  }

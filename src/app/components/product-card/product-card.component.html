@@ -1,0 +1,17 @@
+<div class="card mb-3" style="width: 17.3rem;">
+    <div class="row favorite align-self-end">
+        <i class="fa fa-heart-o" aria-hidden="true"></i> </div>
+    <img [src]="product.image" class="card-img-top" alt="...">
+    <div class="card-body">
+
+        <p class="p-style">{{product.description}}</p>
+        <p class="p-style">
+            <ngb-rating [max]="5" [rate]="product.rate" [readonly]="true"></ngb-rating>
+            <span class="rate-numbr">(150)</span>
+        </p>
+        <p style="margin-bottom: 0px;"> <span class="price-style">{{product.discountPrice}}
+                EGP</span><span class="price-style-original"><del>{{product.originalPrice}}
+                    EGP</del></span></p>
+        <p class="installment-style mt-3">150 EGP / 12 months</p>
+    </div>
+</div>
